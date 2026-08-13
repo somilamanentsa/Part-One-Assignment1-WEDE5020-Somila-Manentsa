@@ -18,36 +18,63 @@
 
    <h1> Enquire More From Us!! </h1>
    <main>
-<form>
-<label for="Name">Name</label>
-<input id="Name" Name="Name" required>
 
-</form>
-</main>
+<!-- Form Section -->
+        <section>
+            <form action="#" method="post">
+                <!-- Personal Details Fieldset -->
+                <fieldset>
+                    <legend><strong>Your Personal Information</strong></legend>
+                    <br>
+                   
+                    <label for="fullname">Full Name:</label><br>
+                    <input type="text" id="fullname" name="fullname" placeholder="e.g. Somila Manentsa" required><br><br>
 
-<main>
-<form>
-<label for="Surname">Surname</label>
-<input id="Surname" Name="Surname" required>
+                    <label for="email">Email Address:</label><br>
+                    <input type="email" id="email" name="email" placeholder="e.g. somilamanentsa@example.com" required><br><br>
 
-</form>
-</main>
+                    <label for="phone">Phone / WhatsApp Number:</label><br>
+                    <input type="tel" id="phone" name="phone" placeholder="e.g. 072 763 3457"><br><br>
 
-<main>
-<form>
-<label for="Contact Number">Contact Number</label>
-<input id="Contact Number" Name="Contact Number" required>
+                    <label for="location">Suburban Area in Gqeberha:</label><br>
+                    <input type="text" id="location" name="location" placeholder="e.g. St Georges , Motherwell"><br><br>
+                </fieldset>
 
-</form>
+                <br>
 
-<main>
-<form>
-<label for="Email">Email</label>
-<input id="Email" Name="Email" required>
+                <!-- Enquiry Category Fieldset -->
+                <fieldset>
+                    <legend><strong>Enquiry & Consultation booking</strong></legend>
+                    <br>
 
-<button type="submit">Submit</button>
-</form>
-</main>
+                    <label for="category">Enquiry Category:</label><br>
+                    <select id="category" name="category" required>
+                        <option value="" disabled selected>-- Select an Enquiry Type --</option>
+                        <option value="booking">booking Consultation </option>
+                        <option value="Service Quotation ">Services Quotation fee</option>
+                        <option value="general">General Enquiry</option>
+                    </select><br><br>
+
+                    <label>Preferred Availability for :</label><br>
+                    <input type="checkbox" id="avail_saturday" name="availability[]" value="Saturday">
+                    <label for="avail_saturday">Saturday </label><br>
+                   
+                    <input type="checkbox" id="avail_sunday" name="availability[]" value="Sunday">
+                    <label for="avail_sunday">Sunday </label><br>
+                   
+                    <input type="checkbox" id="avail_weekdays" name="availability[]" value="Weekdays">
+                    <label for="avail_weekdays">Weekdays</label><br><br>
+
+                    <label for="message"> Specific Request:</label><br>
+                    <textarea id="message" name="message" rows="6" cols="50" placeholder="Please tell us more about your enquiry or how you'd like to get involved..." required></textarea><br><br>
+                </fieldset>
+
+                <br>
+
+                
+            </form>
+        </section>
+    </main>
 
 <footer>
       <p>&copy; 2026 Kasi_Tech. All Rights Reserved</p>
