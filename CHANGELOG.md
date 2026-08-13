@@ -16,17 +16,47 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 - Connect forms to a secure server-side form service when backend development is allowed.
 - Add CSS styling during the styling phase of the project.
 
-## [1.0.0] - 2026-08-11
+## [1.0.0] - 2026-07-28
 
 ### Added
 
-- Five complete HTML5 pages: Home, About, Services, Inquiry and Contact.
-- Consistent navigation and footer across all pages.
-- Semantic page structure and accessibility labels.
-- Responsive viewport metadata for mobile browsers.
-- Search-engine descriptions and unique page titles.
-- Service descriptions for webdevelopment and design,database and system analysis,IT & Network Support
-- Inquiry, quotation and service-booking request form with HTML validation.
-- Contact form with HTML validation.
-- Business operating-hours table 
-- README with setup, testing, publishing and version-control guidance.
+​Added: Initialized repository structure and created root project directory.
+​Added: Created basic HTML starter templates for the 5 core pages (index.html, about.html, services.html, enquiry.html, contact.html).
+​Configured: Configured default HTML metadata, viewport settings, and standard semantic page shells.
+
+## [1.0.0] - 2026-07-30
+
+### Added
+
+ Drafted structured section containers (<header>, <main>, <footer>, <section>) matching business goals.
+​Implemented placeholder content for the primary core service areas: Web Development, Database Management, and Systems Analysis.
+
+### ​Updated
+ Added initial business info sections aligned with target audience engagement goals.
+
+## [1.0.0] - 2026-08-04
+
+ Core Navigation & Feature Integration
+
+ ## Added
+​ Created consistent global top navigation bar across all 5 HTML files to ensure uniform site navigation.
+​ Built interactive HTML consultation request form on enquiry.html including inputs for:
+​Full Name
+​Email Address
+​Service Required dropdown (Web Dev, Database, Systems Analysis)
+​Project Details text area
+​Constructed universal footer component containing operating hours, contact information, and copyright notices
+
+## [1.0.0] - 2026-08-11
+​ Structural Refinement & Link Validation (Milestone 1)
+​Completed: Validated semantic HTML5 tags and structure across all pages.
+​Updated: Corrected internal relative anchor paths to ensure seamless navigation between Home, About, Services, Enquiry, and Contact.
+​Refined: Updated page headings and section layouts based on research and proposal guidelines.
+
+## [1.0.0] - 2026-08-13
+
+​ Folder Architecture & Production Prep (Milestone 2)
+​Completed: Organized final project directory structure (/css, /images, /js).
+​Refined: Cleaned up code layout and verified Apache shared hosting compatibility for deployment to target domain (www.Kasi-Techsolutions.co.za).
+​Prepared: Finalized base HTML/CSS build in preparation for upcoming Part 1 milestone push
+
