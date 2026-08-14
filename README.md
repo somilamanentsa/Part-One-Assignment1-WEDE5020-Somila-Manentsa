@@ -31,7 +31,7 @@ Kasi_Tech/
 ## How to run
 
 1. Extract the ZIP file.
-2. Open the `Kasi_Tech` folder.
+2. Open the `Part One Assignment1 WEDE5020  Somila Manentsa` folder.
 3. Double-click `index.html`, or open it using a web browser.
 4. Use the navigation menu to visit all five pages.
 
@@ -74,3 +74,9 @@ Create an empty GitHub repository, then follow GitHub's instructions to add the 
 - No third-party image downloads, fonts, CSS frameworks or JavaScript libraries
 
 Proposed domain: `www.Kasi_Tech Solution.co.za`
+
+## Github
+https://github.com/somilamanentsa/Part-One-Assignment1-WEDE5020-Somila-Manentsa
+
+## Netlify 
+https://app.netlify.com/teams/somilamanentsa/overview
